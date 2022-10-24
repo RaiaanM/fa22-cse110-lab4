@@ -1,26 +1,29 @@
-1)  Code will print 3; vars are global in scope, and thus i retains the value 3 from exiting the for loop
+1)  The Code will print 3; i retains the value 3 after the for loop since vars are global in scope.
 
-2)  Code will print 150; 'discountedPrice' keeps its assigned value from the last iteration of the for loop
+2)  Code will print 150; The last iteration of the for loop will assign the value for 'discountedPrice'.
 
-3)  Code will print 150; 'finalPrice' is a var so it keeps its assigned value from the last iteration of the for loop
+3)  Code will print 150; The var 'finalPrice' will keep its assigned value from the last iteration of the for loop
 
-4)  Code will return [50, 100, 150], because discounted is always in scope so all its elements are saved
+4)  Code will return [50, 100, 150], this is because all the elements are saved since discounted is always in scoped.
 
-5)  Error, because i is not defined in the scope of line 12
+5)  Error:
+    This is because at line 12, i is not defined in the scope.
 
-6)  Error, because discountedPrice is not defined in the scope of line 13
+6)  Error:
+    This is because at line 13, discountedPrice is not defined in the scope.
 
-7)  150, even though finalPrice is declared using let, it is declared outside of the for loop so it is in the same scope as line 14
+7)  150, even though finalPrice is declared using let, it is the same scope as line 14 since it is declared outside of the for loop.
 
-8)  [50, 100, 150] because discountedPrice is declared at the correct scope
+8)  [50, 100, 150] because discountedPrice is declared at the correct scope.
 
-9)  Error, because i is not in scope (declared using let in a codeblock)
+9)  Error:
+    This is because because i is not in scope.
 
-10) 3 because length is not modified, so it retains the value that it is first assigned
+10) 3 which is the value it was first assigned since it is not modified after.
 
-11) [50,100,150] even though the elements of discounted are changing, the array has not been reassigned; const only prevents reassignment
+11) [50,100,150] The elements of discounted can change but const prevents the reassignment of the array.
 
-12) Object Notation
+13) Object Notation
     a)  student.name
     b)  student['Grad Year']
     c)  student.greeting()
@@ -46,11 +49,11 @@
     e)  false // true is converted to the number 1
     f)  true // Boolean(2) returns true
 
-15) == permits type conversion, === does not
+15) The '==' permits type conversion while the '===' does not
     
 16) It is a seperate file in the javascript folder.
 
-17) [2, 4, 6] is returned, because doSomething doubles the value of whatever is passed into it, and modifyArray iterates through its input array and calls  doSomething on all its elements
+17) [2, 4, 6] is returned, this is because when a value is passed into 'doSomething', it doubles. 'modifyArray' iterates through the iput array and calls doSomething on each of its elements.
 
 18) Seperate file in the javascript folder
 
