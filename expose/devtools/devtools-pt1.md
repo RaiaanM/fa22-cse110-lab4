@@ -4,7 +4,7 @@
 
 3)  778 kB
 
-4)  656 ms
+4)  716 ms
 
 5)  Chrome/106.0.0.0
 
@@ -12,6 +12,7 @@
 
 7)  Thu, 15 Sep 2022 22:44:30 GMT
 
-8)  application/json; charset=utf-8
+8)  application/json;
+    charset=utf-8
 
-9)  fetchData
+9)  The function was: 'fetchData'
