@@ -1,12 +1,15 @@
 
-1)  values added: 20
+1)  20 were the values added.
 
-2)  final result: 20
+2)  The final result was 20.
 
-3)  values added:20
+3)  20 were the values added.
 
-4)  Error, result is no longer in scope at line 13
+4)  Error:
+    At line 13, the result was no longer in the scope.
 
-5)  Error, because we are reassigning the value of a const
+5)  Error:
+    The value of const was attempted to be reassigned.
 
-6)  Error, because result is no longer in scope
+6)  Error:
+    The result was no longer in the scope.
